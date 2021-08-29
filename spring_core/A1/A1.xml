@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    					http://www.springframework.org/schema/beans/spring-beans.xsd
+    					http://www.springframework.org/schema/util
+                    	http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+    <bean id="adres" class="Spring.Core.A1.Adres">
+    	<property name="street" value="shapur nagar"/>
+    	<property name="city" value="Hyderabad"/>
+    	<property name="state" value="Telangana"/>
+    	<property name="zip" value="500055"/>
+    	<property name="country" value="India"/>
+    </bean>
+    
+    <bean id="cust" class="Spring.Core.A1.Cust">
+    	<property name="id" value="123"/>
+    	<property name="name" value="bharath"/>
+    	<property name="contact" value="8977977123"/>
+    	<property name="Address" ref="My Adress"/>
+    </bean>
+    
+</beans>
