@@ -1,0 +1,18 @@
+.a {
+  width: 1300px;
+  height: 56px;
+  font-size:30px;
+  font-weight:bold;
+  background-color: blue;}
+.b, .d{
+  width: 1300px;
+  height: 56px;
+  display: inline-block;
+  background-color:grey;
+}
+.c {
+  width: 1300px;
+  height: 56px;
+  display: inline-block;
+  background-color:lightblue;
+}

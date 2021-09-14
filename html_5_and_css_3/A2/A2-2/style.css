@@ -1,0 +1,26 @@
+.heading1 {
+  width: 1300px;
+  height: 56px;
+  display: inline-block;
+  background-color:lightblue;
+}
+.heading2 {
+  width: 1300px;
+  height: 56px;
+  display: inline-block;
+  text-decoration: line-through;
+  background-color:lightblue;
+}
+.heading3 {
+  width: 1300px;
+  height: 56px;
+  display: inline-block;
+  text-decoration:underline ;
+  background-color:lightblue;
+}
+.heading4 {
+  width: 1300px;
+  height: 56px;
+  display: inline-block;
+  background-color:lightblue;
+}

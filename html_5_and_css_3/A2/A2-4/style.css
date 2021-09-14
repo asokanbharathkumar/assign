@@ -1,0 +1,13 @@
+.link{
+  width: 1300px;
+  height: 56px;
+  display: inline-block;
+  background-color:lightblue;
+}
+
+.link:visited{
+  color: red;
+}
+.link:hover{
+  color: red;
+}

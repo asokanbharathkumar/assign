@@ -1,0 +1,12 @@
+table{
+  border: 1px solid black;
+}
+tr{
+  border: 1px solid green;
+}
+th,td{
+  border: 1px solid green;
+}
+th{
+  border: 1px solid green;
+}
